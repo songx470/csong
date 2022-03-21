@@ -1,0 +1,221 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 10px;
+  box-shadow: none;
+  z-index: 1;
+
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 11.5px;
+
+}
+
+
+
+.dropdown-content a:hover {background-color: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: none;}
+*{
+    margin: 0;
+    padding: 0;
+             cursor: default;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+
+}
+.main a:hover{
+    text-decoration: none;
+    color:grey;
+    cursor:pointer;
+}
+body{
+    font-family: 'Poppins', sans-serif;     
+    font-weight: 700;
+    cursor: default;
+
+
+}
+.menubox{
+    width: 20%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background-color: #fff; margin-bottom:50px;
+ }
+
+.menubox h2{
+    font-size: 60px;
+    margin-bottom:0px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    margin-left: 50px; margin-bottom:50px;
+}
+.menubox .list1{
+    margin-left: 50px; margin-bottom:50px;
+    margin-top:50px;
+}
+.menubox .list1 li{
+    height: 38px; 
+    line-height: 90px;
+    margin-top: -15px;
+}
+.menubox .list1 li a{
+    font-size: 11.5px;
+    font-weight:400;
+
+}
+
+ h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight:400;
+    margin-top: px;
+    text-align:right;
+    margin-right:40px;
+}
+
+p{
+    font-size:14px;
+}
+
+.foot{
+    margin-top:70px;
+    margin-bottom:30px;
+}
+.main .head{
+    text-align: right;
+    padding-right:50px;
+    position: fixed;
+    width: 80%;
+    right: 0;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main .head a {
+    line-height: 75px;
+    font-size: 14px;
+    margin-left: 40px;
+    font-weight:600;
+}
+.main{
+    float: right;
+    width: 80%;
+}
+.mbox{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display:flex;
+}
+.list2{
+    overflow: hidden;
+}
+.list2 li{
+    width: 800px;
+    float: left;
+    margin-top: 185px;
+    margin-left: 100px;
+    text-align: center;
+}
+.list2 li img{
+    width: 100%;
+    height: 100%;
+    margin-top:0px;
+}
+
+
+
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  right: 95%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.Title{
+    text-align:left;
+    font-size:10px;
+
+}
+
+.Detail{
+    text-align:left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight:700;
+    margin-top:15px;
+}
+
+.Type{
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight:700;
+        margin-bottom:15px;
+}
+
+.Paragraph{
+    text-align:left;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight:300;
+
+}

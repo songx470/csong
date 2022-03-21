@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/2.2.css">
+</head>
+
+<body>
+    <div class="menubox">
+        <h2>C</h2>
+        <ul class="list1">
+                <li><a >EDITORIAL DESIGN</a></li>
+            <li><a >BRANDING </a></li>
+            <li><a >FASHION</a></li>
+            <li><a >ILLUSTRATION</a></li>
+            <li><a >ANIMATION</a></li>
+           
+        </ul>
+    </div>
+    <div class="main ">
+        <div class="head">
+            <a href="index.html">HOME</a>
+            <div class="dropdown">
+            <a href="##">PROJECTS</a>
+            <div class="dropdown-content">
+               <a href="2_Editorial.html">EDITORIAL</a>
+               <a href="3_Branding.html">BRANDING</a>
+               <a href="4_Fashion.html">FASHION</a>
+               <a href="5_Illustration.html">ILLUSTRATION</a>
+               <a href="6_Animation.html">ANIMATION</a>
+           </div>
+    </div>
+            <a href="https://drive.google.com/file/d/14gWEGstecW8G6TpLY0idbP5M1t_XgZe_/view?usp=sharing">CONTACT</a>
+        </div>
+
+        
+            <ul class="list2">
+                <li>
+
+                   <div class="slideshow-container">
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <div class="mySlides1">
+    <img src="img/Branding_2.1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="img/Branding_2.2.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides1">
+    <img src="img/Branding_2.21.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides1">
+    <img src="img/Branding_2.31.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="img/Branding_2.3.jpg" style="width:100%">
+  </div>
+
+   <div class="mySlides1">
+    <img src="img/Branding_2.4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="img/Branding_2.51.jpg" style="width:100%">
+  </div>
+
+   <div class="mySlides1">
+    <img src="img/Branding_2.5.jpg" style="width:100%">
+  </div>
+ 
+    <div class="mySlides1">
+    <img src="img/Branding_2.6.jpg" style="width:100%">
+  </div>
+
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<div class="Detail">"THE BODY SHOP"</div>
+<div class="Type">/ REBRANDING</div>
+<div class="Paragraph">
+  The Body Shop International Limited, is a British cosmetics, skin care and perfume company founded in 1976. This project aims to improve the branding system of The Body Shop by reinventing the existing identity but still keeping the core value of professional, healthy and organic skin care. New identities are under themes of "classic & professional", "healthy & organic" and "elegant & chick", providing three themes with different future focuses on branding. The iconic green colour is remained to ensure the acceptability of new logos.
+</div>
+                </li>
+            </ul>
+            </ul>
+  
+
+
+
+<div class="foot">
+            <h3>@CeciliaSong</h3>
+            <h3>Instagram</h3>
+            <h3>Linkdn</h3>
+    </div>
+
+        </div>
+    </div>
+</body>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+   
+</html>

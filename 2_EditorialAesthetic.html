@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/2.1.css">
+</head>
+
+<body>
+    <div class="menubox">
+        <h2>C</h2>
+        <ul class="list1">
+            <li><a >EDITORIAL DESIGN</a></li>
+            <li><a >BRANDING </a></li>
+            <li><a >FASHION</a></li>
+            <li><a >ILLUSTRATION</a></li>
+            <li><a >ANIMATION</a></li>
+           
+        </ul>
+    </div>
+    <div class="main ">
+        <div class="head">
+            <a href="index.html">HOME</a>
+            <div class="dropdown">
+            <a href="##">PROJECTS</a>
+            <div class="dropdown-content">
+               <a href="2_Editorial.html">EDITORIAL</a>
+               <a href="3_Branding.html">BRANDING</a>
+               <a href="4_Fashion.html">FASHION</a>
+               <a href="5_Illustration.html">ILLUSTRATION</a>
+               <a href="6_Animation.html">ANIMATION</a>
+           </div>
+    </div>
+            <a href="https://drive.google.com/file/d/14gWEGstecW8G6TpLY0idbP5M1t_XgZe_/view?usp=sharing">CONTACT</a>
+        </div>
+
+        
+            <ul class="list2">
+                <li>
+
+                   <div class="slideshow-container">
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+
+    <div class="mySlides1">
+    <img src="img/Editorial_2.1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="img/Editorial_2.2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="img/Editorial_2.3.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.4.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.5.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.6.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.7.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.9.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.10.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.11.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.14.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.15.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1">
+    <img src="img/Editorial_2.16.jpg" style="width:100%">
+  </div>
+
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<div class="Detail">"AESTHETIC"</div>
+<div class="Type">/ MAGAZINE DESIGN</div>
+<div class="Paragraph">
+  Aesthetic is a fashion and lifestyle magazine which covers fields of fashion, beauty, culture, living, etc. Divided by different theme every issue, it aims to provide artistic visions by featuring models, designers, actors, etc. Travel, food and entertainments are also included toward target readers that are mainly young fashion/art lovers in the age range of 18-32 .       
+</div>
+                </li>
+            </ul>
+            </ul>
+  
+
+
+
+<div class="foot">
+            <h3>@CeciliaSong</h3>
+            <h3>Instagram</h3>
+            <h3>Linkdn</h3>
+    </div>
+
+        </div>
+    </div>
+</body>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+   
+</html>
